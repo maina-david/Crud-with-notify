@@ -25,7 +25,7 @@ return [
     |
     */
 
-    'demo' => true,
+    'demo' => false,
 
     /*
     |--------------------------------------------------------------------------
@@ -52,19 +52,19 @@ return [
         'post-created' => [
             'message' => 'The post has been created successfully.',
             'type'    => 'success',
-            'model'   => 'connect',
+            'model'   => 'toast',
             'title'   => 'Post Created',
         ],
         'post-updated' => [
             'message' => 'The post has been updated successfully.',
             'type'    => 'success',
-            'model'   => 'connect',
+            'model'   => 'toast',
             'title'   => 'Post Updated',
         ],
         'post-deleted' => [
             'message' => 'The post has been deleted successfully.',
             'type'    => 'success',
-            'model'   => 'drake',
+            'model'   => 'toast',
             'title'   => 'Post Deleted',
         ],
     ],
